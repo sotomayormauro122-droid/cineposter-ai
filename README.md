@@ -1,16 +1,73 @@
-# React + Vite
+CinePoster AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción
 
-Currently, two official plugins are available:
+CinePoster AI es una SPA desarrollada con React + Vite que permite buscar películas y visualizar sus posters junto con información obtenida desde una API externa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El proyecto está pensado para seguir agregando nuevas funcionalidades en futuras versiones.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Cliente y problemática
 
-## Expanding the ESLint configuration
+Cliente: MovieHub (ficticio).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El problema identificado es que los usuarios deben buscar posters de películas en distintas páginas, donde la calidad e información puede variar.
+
+La solución busca juntar la búsqueda de posters e información de películas en una sola aplicación.
+
+
+Funcionalidades
+
+- Buscar películas por nombre.
+- Mostrar poster de la película.
+- Mostrar descripción e información.
+- Ver poster en alta calidad.
+- Mensaje cuando no existen resultados.
+
+
+Futuras mejoras
+
+Se planea agregar funcionalidades CRUD:
+
+- Crear colecciones de posters.
+- Ver posters guardados.
+- Modificar colecciones.
+- Eliminar posters.
+
+
+Tecnologías utilizadas
+
+- React + Vite
+- JavaScript
+- CSS
+- API TMDb
+- Git y GitHub
+
+
+Estructura
+
+src/
+
+components/
+- Navbar
+- SearchBar
+- MovieCard
+- Footer
+
+pages/
+- Home
+
+services/
+- tmdb
+
+
+Uso de IA
+
+Se utilizó inteligencia artificial como apoyo durante el desarrollo para resolver dudas y mejorar la estructura del proyecto.
+
+Los prompts utilizados se encuentran en el archivo PROMPTS_IA.md.
+
+
+Avance
+
+Primera versión del proyecto con componentes React, manejo de estado, consumo de API externa y estructura preparada para futuras mejoras.
