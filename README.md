@@ -71,3 +71,14 @@ Los prompts utilizados se encuentran en el archivo PROMPTS_IA.md.
 Avance
 
 Primera versión del proyecto con componentes React, manejo de estado, consumo de API externa y estructura preparada para futuras mejoras.
+
+-
+-
+-
+-
+-
+La API Key de TMDb no está incluida por seguridad.
+
+Para probar la aplicación crear un archivo .env con:
+
+VITE_TMDB_KEY=clave_tmdb
