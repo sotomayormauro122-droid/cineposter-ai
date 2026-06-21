@@ -1,43 +1,30 @@
 Evidencia de uso de Inteligencia Artificial
-
 Prompt 1
-
-¿Cómo puedo organizar una aplicación React + Vite utilizando componentes reutilizables?
+¿Cómo puedo organizar mi proyecto en React para que no esté todo dentro de App.jsx?
 
 Recomendación obtenida
-
-Separar la aplicación en carpetas como components, pages y services para mantener un proyecto ordenado.
+Separar el proyecto utilizando componentes reutilizables y carpetas dedicadas para cada responsabilidad.
 
 Ajuste realizado
-
-Se creó una estructura modular separando la interfaz, páginas y consumo de servicios externos.
-
-
+Se creó una estructura con components, pages y services para mantener el código más ordenado.
 -
 
 Prompt 2
-
-¿Cómo puedo consumir una API externa en React utilizando async/await?
+¿Cómo puedo hacer que al buscar una película aparezcan datos reales y no información escrita manualmente?
 
 Recomendación obtenida
-
-Crear una función asíncrona utilizando fetch y separar la lógica de conexión en un archivo independiente.
+Utilizar una API externa de películas y consumir sus datos mediante funciones asíncronas.
 
 Ajuste realizado
-
-Se creó un servicio tmdb.js encargado de obtener información de películas desde una API externa.
-
+Se integró la API de TMDb usando fetch y async/await para obtener títulos, posters y descripciones.
 
 -
 
 Prompt 3
-
-¿Cómo mejorar una SPA desarrollada en React?
+¿Cómo hago para manejar lo que escribe el usuario en el buscador y actualizar la información que aparece?
 
 Recomendación obtenida
-
-Agregar manejo de errores y mejorar la experiencia del usuario.
+Utilizar React Hooks para controlar estados y actualizar la interfaz cuando cambien los datos.
 
 Ajuste realizado
-
-Se agregó un mensaje cuando una película no es encontrada.
+Se implementó useState para manejar la búsqueda, los resultados y mensajes dentro de la aplicación.
